@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', monospace;
+
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medida Relativas
+            em (Altura de uma fonte), ex (Altura x de uma fonte), rem, vw (View Width), vh, %
+
+            Vamos trabalhar com em
+
+            16px = 1em (Geralmente)
+
+            Use EM ou PX
+
+            font-weight (Peso da letra)
+            */
+            font-size: 1em;
+            /*font-weight: bolder;*/ 
+
+            /* lighter, normal, bolde, bolder*/
+
+            /*font-style: italic;
+            text-decoration: underline;*/
+        }
+        h1{
+            /* shorthand font - abreviar as config acima
+            
+            font-style -> font-wight -> fonte-size -> font-famíly
+
+            
+            font-family: 'Wrok Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em sans-serif;
+        }
+        h2{
+            font: bolder 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam fugiat, aspernatur ipsa, voluptatum exercitationem sunt possimus suscipit magnam consequuntur iusto libero esse quam inventore qui tenetur, velit obcaecati incidunt?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate itaque iure laborum aliquid ab ex atque deleniti, sequi, minima nobis provident voluptatem non praesentium perferendis? Obcaecati molestiae earum quaerat dolorem.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laborum animi temporibus ipsa. Ad eligendi, cupiditate, natus ipsa sint veniam minima laboriosam expedita modi illum unde maiores asperiores porro. Laborum?</p>
+</body>
+</html>

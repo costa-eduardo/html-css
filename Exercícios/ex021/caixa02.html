@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        h1{
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+            background-color: rgb(196, 196, 196);
+            text-align: center;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(107, 107, 107);
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            page-break-inside: 10px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 30px 3px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+            border-radius: 0px 0px 30px;
+        }
+        article > aside{
+            background-color: gray;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+        }
+        nav{
+            padding: 3px;
+            background-color: gray;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        section > p{
+            font-weight: bold;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi rerum nam deleniti omnis, maxime ducimus atque qui cum, laudantium officia debitis, iste velit quisquam ut quis voluptas doloremque laboriosam.</p>
+                <aside>
+                    <p>Artigo escrito por Fulano da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Eduardo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
